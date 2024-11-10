@@ -3,4 +3,4 @@ import { Lusitana } from 'next/font/google';
 
 export const interLatinFontFamily = Inter({subsets:['latin']});
 
-export const lusitanaLatinFontFamily = Lusitana({weight:'400'});
+export const lusitanaLatinFontFamily = Lusitana({weight:'400', subsets:['latin']},);
